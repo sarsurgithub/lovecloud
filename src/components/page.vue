@@ -39,31 +39,37 @@
 </template>
 
 <style lang="scss" scoped>
-
+  /* general */
   .page {
     color: lightgray;
   }
-
-    /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
-    h1 {
+  h1 {
       font-size: 36px;
       margin-right: 5%;
-
+      margin: 10px;
+      color:white;
     }
     h2 {
       font-size: 24px;
       margin-left: 20%;
-
+      font-weight: normal;
+      margin: 10px;
+      color: #65BAEF;
     }
     p {
       font-size: 16px;
       padding-left:50px;
       max-width: 500px;
       text-align: left;
+      color: #D3DCE4;
+    }
+    img {
+      max-width: 300px;
+      align-self: center;
+      padding: 20px;
     }
     section {
-    padding: 30vh 0;
+    padding: 20vh 0;
   }
   .one {
     padding-top: 15%;
@@ -74,27 +80,7 @@
     background-color: #192974;
 
     .one-inside {
-      padding-bottom: 30%;
-
-      .textone {
-        h1 {
-          color:white;
-          margin: 10px;
-          margin-right: 5%;
-        }
-        h2 {
-          font-weight: normal;
-          color: #65BAEF;
-          margin: 10px;
-        }
-        p {
-          color: #D3DCE4;
-        }
-      }
-
-      .cloud {
-        width: 300px;
-      }
+      padding-bottom: 10%;
     }
   }
 
@@ -108,23 +94,14 @@
         padding-top: 5%;
         h1 {
           color:#192974;
-          margin: 10px;
-          margin-right: 10%;
         }
         h2 {
-          font-weight: normal;
           color: #65BAEF;
-          margin: 10px;
-          margin-left: 25%;
         }
         p {
           color: #5C6975;
         }
       }
-    .heig {
-      width: 300px;
-      padding-top:20%;
-    }
     }
   }
   .minisection {
@@ -143,151 +120,44 @@
     background-color: #192974;
     .three-inside {
       padding-bottom: 30%;
-
-      .textthree {
-        h1 {
-          color:white;
-          margin: 10px;
-          margin-right: 10%;
-        }
-        h2 {
-          font-weight: normal;
-          color: #65BAEF;
-          margin: 10px;
-          margin-left: 40%;
-        }
-        p {
-          color: #D3DCE4;
-        }
-      }
     }
+  }
+
+    /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+  .one-inside {
+    display: flex;
+    flex-direction: column-reverse;
   }
   }
 
   @media only screen and (min-width: 1200px){
   section {
-    padding: 30vh 0;
+    padding: 50vh 0;
   }
-  .one {
-    padding-top: 15%;
-    position: relative;
-    z-index: 12;
-    margin-bottom: -35vw;
-    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 35vw), 0% 100%);
-    background-color: #192974;
-
-    .one-inside {
-      display: flex;
-      justify-content: space-evenly;
-      padding-bottom: 30%;
-
-      .textone {
-        h1 {
-          font-size: 40px;
-          color:white;
-          margin: 10px;
-          margin-right: 5%;
-        }
-        h2 {
-          font-size: 32px;
-          font-weight: normal;
-          color: #65BAEF;
-          margin: 10px;
-          margin-left: 20%;
-        }
-        p {
-          color: #D3DCE4;
-          width: 500px;
-          text-align: left;
-          padding-left:50px;
-          font-size: 24px;
-        }
-      }
-
-      .cloud {
-        width: 700px;
-      }
-    }
+  h1 {
+    font-size:40px;
   }
-
-  .two {
-    position: relative;
-    z-index: 11;
-    background-color: #F4F5FF;
-    .two-inside {
-      display: flex;
-      justify-content: space-evenly;
-      .texttwo {
-        padding-top: 5%;
-        h1 {
-          font-size: 40px;
-          color:#192974;
-          margin: 10px;
-          margin-right: 10%;
-        }
-        h2 {
-          font-size: 32px;
-          font-weight: normal;
-          color: #65BAEF;
-          margin: 10px;
-          margin-left: 25%;
-        }
-        p {
-          color: #5C6975;
-          width: 500px;
-          text-align: left;
-          padding-left:50px;
-          font-size: 24px;
-        }
-      }
-    .heig {
-      width: 700px;
-      padding-top:20%;
-    }
-    }
+  h2 {
+    font-size: 32px;
   }
-  .minisection {
-    padding: 18vh 0;
-    position: relative;
-    z-index: 12;
-    clip-path: polygon(0 0, 100% calc(0% + 10vw), 100% 100%, 0 100%);
-    margin-top: -10vw;
-    background-color: #1C90E6;
+  p {
+    font-size: 24px;
   }
-  .three{
-    position: relative;
-    z-index: 13;
-    clip-path: polygon(0 0, 100% calc(0% + 10vw), 100% 100%, 0 100%);
-    margin-top: -10vw;
-    background-color: #192974;
-    .three-inside {
-      display: flex;
-      justify-content: space-evenly;
-      padding-bottom: 30%;
-
-      .textthree {
-        h1 {
-          font-size: 40px;
-          color:white;
-          margin: 10px;
-          margin-right: 10%;
-        }
-        h2 {
-          font-size: 32px;
-          font-weight: normal;
-          color: #65BAEF;
-          margin: 10px;
-          margin-left: 40%;
-        }
-        p {
-          color: #D3DCE4;
-          width: 500px;
-          text-align: left;
-          padding-left:50px;
-          font-size: 24px;
-        }
-      }
+  img {
+    max-width: 700px;
+  }
+  .one-inside {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30%;
     }
+  .heig {
+    padding-top: 20%;
+  }
+  .two-inside {
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 
