@@ -104,13 +104,13 @@ export default {
 
   @media only screen and (min-width: 1200px){
   section {
-    padding: 40vh 0;
+    padding: 30vh 0;
   }
   img {
-    max-width: 700px;
+    max-width: 600px;
   }
   .minisection {
-    padding: 18vh 0;
+    padding: 15vh 0;
   }
 }
 

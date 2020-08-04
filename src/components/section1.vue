@@ -14,12 +14,12 @@
 
 <style lang="scss" scoped>
   .one {
-    padding-top: 15%;
+    padding-top: 50px;
     position: relative;
     z-index: 12;
     margin-bottom: -35vw;
     clip-path: polygon(0 0, 100% 0, 100% calc(100% - 35vw), 0% 100%);
-    background-color: #192974;
+    background: #192974 url('../assets/pictures/petits-nuages.png') repeat  center;
 
     .one-inside {
       padding-bottom: 10%;
@@ -30,11 +30,17 @@
       display: flex;
       flex-direction: column-reverse;
     }
+    .one {
+      background-size: 400px;
+    }
   }
   @media only screen and (min-width: 600px) {
     .one-inside {
     display: flex;
     flex-direction: column-reverse;
+    }
+    .one {
+      background-size: 600px;
     }
   }
   @media only screen and (min-width: 768px) {

@@ -1,16 +1,22 @@
 <template>
   <div id="app">
+    <pageHeader/>
     <page/>
+    <pageFooter/>
   </div>
 </template>
 
 <script>
 import page from '@/components/page.vue';
+import pageHeader from '@/components/header.vue';
+import pageFooter from '@/components/footer.vue';
 
 export default {
   name: 'App',
   components: {
     page,
+    pageHeader,
+    pageFooter,
   },
 };
 </script>
@@ -22,11 +28,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 body {
-    background-color: #192974;
     margin: 0px;
+    background-color: #192974;
 
 }
 </style>
