@@ -5,9 +5,8 @@
         <div class='textone'>
           <h1>Le Cloud Computing</h1>
           <h2>Qu'est-ce que c'est ?</h2>
-          <p> blabla
-            blabla
-          </p>
+          <p> blablablabla</p>
+          <p> blablablabla</p>
         </div>
         <img class='cloud' src='@/assets/pictures/supercloud.png'/>
       </div>
@@ -19,6 +18,7 @@
           <h1>Comment se former</h1>
           <h2>aux technologies du web ?</h2>
           <p> blabla </p>
+          <p> blablablabla</p>
         </div>
       </div>
     </section>
@@ -31,8 +31,9 @@
           <h1>Avenir</h1>
           <h2>Professionnel</h2>
           <p> blabla </p>
+          <p> blablablabla</p>
         </div>
-        <img class='' src=''/>
+        <img class='avenir' src='@/assets/pictures/App.png'/>
       </div>
     </section>
   </div>
@@ -129,6 +130,10 @@
     display: flex;
     flex-direction: column-reverse;
   }
+  .three-inside {
+    display:flex;
+    flex-direction: column-reverse;
+  }
   }
 
   @media only screen and (min-width: 1200px){
@@ -156,6 +161,10 @@
     padding-top: 20%;
   }
   .two-inside {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .three-inside {
     display: flex;
     justify-content: space-evenly;
   }
