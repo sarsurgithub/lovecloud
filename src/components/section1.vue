@@ -46,20 +46,8 @@
     }
   }
   @media only screen and (min-width: 992px) {
-    .one-inside {
-      display: flex;
-      justify-content: space-evenly;
-      padding-bottom: 30%;
-      }
     .cloud {
       padding-bottom: 10%;
-    }
-  }
-  @media only screen and (min-width: 1200px){
-    .one-inside {
-      display: flex;
-      justify-content: space-evenly;
-      padding-bottom: 30%;
     }
   }
 </style>

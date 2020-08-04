@@ -43,22 +43,4 @@
       justify-content: space-evenly;
     }
   }
-  @media only screen and (min-width: 992px) {
-    .heig {
-      padding-top: 20%;
-    }
-    .two-inside {
-      display: flex;
-      justify-content: space-evenly;
-    }
-  }
-  @media only screen and (min-width: 1200px){
-    .heig {
-      padding-top: 20%;
-    }
-    .two-inside {
-      display: flex;
-      justify-content: space-evenly;
-    }
-  }
 </style>

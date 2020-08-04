@@ -43,17 +43,4 @@
       flex-direction: row;
     }
   }
-    /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    .three-inside {
-      display: flex;
-      justify-content: space-evenly;
-    }
-  }
-  @media only screen and (min-width: 1200px){
-    .three-inside {
-      display: flex;
-      justify-content: space-evenly;
-    }
-  }
 </style>

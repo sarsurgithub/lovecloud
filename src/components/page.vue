@@ -106,15 +106,6 @@ export default {
   section {
     padding: 40vh 0;
   }
-  h1 {
-    font-size:40px;
-  }
-  h2 {
-    font-size: 32px;
-  }
-  p {
-    font-size: 24px;
-  }
   img {
     max-width: 700px;
   }
