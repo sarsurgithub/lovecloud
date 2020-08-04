@@ -65,7 +65,7 @@
       color: #D3DCE4;
     }
     img {
-      max-width: 300px;
+      max-width: 280px;
       align-self: center;
       padding: 20px;
     }
@@ -106,7 +106,7 @@
     }
   }
   .minisection {
-    padding: 18vh 0;
+    padding: 10vh 0;
     position: relative;
     z-index: 12;
     clip-path: polygon(0 0, 100% calc(0% + 10vw), 100% 100%, 0 100%);
@@ -119,9 +119,6 @@
     clip-path: polygon(0 0, 100% calc(0% + 10vw), 100% 100%, 0 100%);
     margin-top: -10vw;
     background-color: #192974;
-    .three-inside {
-      padding-bottom: 30%;
-    }
   }
 
     /* Extra small devices (phones, 600px and down) */
@@ -136,9 +133,94 @@
   }
   }
 
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .one-inside {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .three-inside {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  p {
+    margin-left: 20%;
+  }
+  img {
+    /*max-width: 400px;*/
+    padding-bottom: 10%
+  }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  img {
+    max-width: 350px;
+  }
+  .one-inside {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-bottom: 30%;
+    }
+  .heig {
+    padding-top: 20%;
+  }
+  .two-inside {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .minisection {
+    padding: 8vh 0;
+  }
+  .three-inside {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  h1 {
+    font-size:40px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 24px;
+  }
+  img {
+    max-width: 400px;
+  }
+  .one-inside {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30%;
+    }
+  .heig {
+    padding-top: 20%;
+  }
+  .cloud {
+    padding-bottom: 10%;
+  }
+  .two-inside {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .minisection {
+    padding: 8vh 0;
+  }
+  .three-inside {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  }
+
   @media only screen and (min-width: 1200px){
   section {
-    padding: 50vh 0;
+    padding: 40vh 0;
   }
   h1 {
     font-size:40px;
@@ -163,6 +245,9 @@
   .two-inside {
     display: flex;
     justify-content: space-evenly;
+  }
+  .minisection {
+    padding: 18vh 0;
   }
   .three-inside {
     display: flex;
