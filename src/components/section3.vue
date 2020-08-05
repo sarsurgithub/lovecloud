@@ -7,7 +7,7 @@
           <p> blabla </p>
           <p> blablablabla</p>
         </div>
-        <img class='avenir' src='@/assets/pictures/App.png'/>
+        <img class='avenir' src='@/assets/pictures/teamwork.png'/>
       </div>
     </section>
 </template>
