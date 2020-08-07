@@ -20,13 +20,12 @@
   }
   h1 {
     margin: 0px;
-    padding: 30px;
+    padding: 30px 10px;
     text-align: left;
     font-family: Avenir;
-    padding-left: 0px;
   }
   img {
     width: 80px;
-    padding: 30px;
+    padding: 30px 10px;;
   }
 </style>
